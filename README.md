@@ -1,2 +1,2 @@
-# HBCUListings-backendapi
+# Talented Tenth-backendapi
 HBCU Listings
