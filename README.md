@@ -1,6 +1,16 @@
 # Talented Tenth  
 
 # Historically Black Colleges & Universities API
+
+This Historically Black Colleges & Universities API was developed to provide a means to have access to a database that provides data regarding HBCUs.
+
+This document explains:
+<ul>
+<li>How to create a "favorite listing" of schools which can include the schools(location, size, population, majors, cost etc.).</li>
+<li>How to create query results using C.R.U.D endpoints.</li>
+</ul>
+
+
 We started with an initial plan where we put our various ideas together on a google doc. Created an organization with two repositories (Backend & Frontend). Frontend with BasicAuth (for user input) and Backend (Seed file database). Creation of the project's organization and Cloning of repository. Initialized and installed tools as well as relevant dependencies. Revised scripts in package.json. Created development branches and testing environments. Created sprints to enable a smooth project planning in Jira. Established the Entity Relational Diagram with Draw.io. Distributed tasks between team members.
 
 # Project Goals:
