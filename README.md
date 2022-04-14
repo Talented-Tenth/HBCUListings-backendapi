@@ -1,6 +1,6 @@
-# Talented Tenth-Backend API
+# Talented Tenth  
 
-# Getting Started
+# Historically Black Colleges & Universities API
 We started with an initial plan where we put our various ideas together on a google doc. Created an organization with two repositories (Backend & Frontend). Frontend with BasicAuth (for user input) and Backend (Seed file database). Creation of the project's organization and Cloning of repository. Initialized and installed tools as well as relevant dependencies. Revised scripts in package.json. Created development branches and testing environments. Created sprints to enable a smooth project planning in Jira. Established the Entity Relational Diagram with Draw.io. Distributed tasks between team members.
 
 # Project Goals:
