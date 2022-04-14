@@ -129,13 +129,16 @@ app.get('/users', async(req, res) =>{
   app.get(`/schoolstate/:state`, async (req,res) => {
     const schoolsbyst = await School.findAll(
       {where : {state: req.params.state}});
-    res.json({schoolsbyst});  
+      if(schoolsbyst.length===0)
+       { return res.send('Error - invalid 2 digit state code or no results found') }
+      res.json({schoolsbyst});  
   })
   
   app.get(`/schoolcity/:city`, async (req,res) => {
+    const searchTerm = req.params.city;
     const schoolscity = await School.findAll(
-      {where : {city: req.params.city}});
-    res.json({schoolscity});  
+    {where : {city: {[Op.like] : `%${searchTerm}%`}}});
+   res.json({schoolscity});
   })
   
   app.get(`/schoolowner/:ownership`, async (req,res) => {
@@ -217,12 +220,6 @@ app.put('/users/:id', async (req,res) => {
   res.send(updatedUser ? "User Updated" : "update Failed")
 })
 
-// configure basicAuth
-app.use(basicAuth({
-  authorizer : dbAuthorizer,
-  authorizeAsync : true,
-  unauthorizedResponse : () => "You do not have access to this content."
-}))
 
 // Method DELETE
 //DELETE method, items/:id path => Deletes an item from db.sqlite
@@ -240,6 +237,12 @@ app.delete("/users/:id", async (req, res) => {
   res.send(deletedUser ? "Deleted" : "Deletion Failed");
 });
 
+// configure basicAuth
+app.use(basicAuth({
+  authorizer : dbAuthorizer,
+  authorizeAsync : true,
+  unauthorizedResponse : () => "You do not have access to this content."
+}))
 
 //get Auth0
 app.get('/tokens', async(req,res) =>{
