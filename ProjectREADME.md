@@ -111,3 +111,7 @@ The planning process for Talented-Tenth/HBCUListings-backendapi started each day
 - Handled debuggings and other issues that came up.
 
 # Team Members
+- Irene Bowers
+- Erica Newman
+- Crystal Johnson
+- Mohammad Kasem
