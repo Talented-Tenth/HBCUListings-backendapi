@@ -143,15 +143,18 @@ app.get('/users', async(req, res) =>{
   
   app.get(`/schoolcity/:city`, async (req,res) => {
     const searchTerm = req.params.city;
-    const schoolscity = await School.findAll(
-    {where : {city: {[Op.like] : `%${searchTerm}%`}}});
-   res.json({schoolscity});
+    const schoolscity = await School.findAll(      
+    {where : {city: {[Op.startsWith] : `${searchTerm}`}}});
+    if(schoolscity.length===0)
+    { return res.send('Error - invalid city entered or no results found')}
+    res.json({schoolscity});
   })
   
   app.get(`/schoolowner/:ownership`, async (req,res) => {
     const schoolsowner = await School.findAll({
       where : {ownership: req.params.ownership},
-          attributes: ['name', 'fafsa', 'city', 'state']
+        attributes: ['name', 'fafsa', 'city', 'state', 'ownership']
+
       });
     res.json({schoolsowner});  
   })
@@ -166,7 +169,7 @@ app.delete(`/favorite/:userid/:schoolid`, async (req,res) => {
   
 });
   await deletefave.destroy()
-  res.send( `Oh no...item number ${Favorite.SchoolId} has been deleted!!!`)
+  res.send( `Heads up...one of your favorites has been deleted!!!`)
 })
 
 // Method POST
@@ -244,7 +247,7 @@ app.delete("/users/:id", async (req, res) => {
   const deletedUser = await User.destroy({
     where: { id: req.params.id },
   });
-  res.send(deletedUser ? "Deleted" : "Deletion Failed");
+  res.send(deletedUser ? "A user has been deleted" : "Deletion Failed");
 });
 
 // configure basicAuth
