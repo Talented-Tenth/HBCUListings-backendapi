@@ -21,7 +21,7 @@ This document explains:
 <li>Authentication and Authorization using Basic Auth and OAuth</li>  
 </ul>
 
-# Acknoledgements:
+# Acknowledgements:
 Our name, Talented Tenth, is coined from the concept of Harvard educator and author, W.E.B Dubois, who emphasized the necessity of cultivating a "talented tenth" of well-educated community leaders to develop the leadership of black Americans, to become leaders to guide the devlopment and uplift of our communites through higher education.
 
 We used the U.S Department of Education College Scorecard API as our main source of data to build our datasets of HBCU Colleges and Universities API. The purpose of this API is allow developers to have access to a dynamic dataset of HBCU listing supporting further development of APIs promoting HBCUs (Historical Black College and Universities).
