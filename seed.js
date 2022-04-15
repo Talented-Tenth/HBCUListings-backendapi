@@ -3,7 +3,7 @@ const fs = require('fs').promises;
 const bcrypt = require('bcrypt');
 const axios = require('axios');
 const {sequelize} = require('./db');
-const {User, Item, School, Favorite} = require('./models');
+const {User, Item, School, Favorite, Major} = require('./models');
 
 const createUsers = async () => {
 
@@ -41,11 +41,11 @@ const createFavorites = async () => {
 }
 
 function createSchoolsArray1(results){
-    let schoolResults = [];
-
-    results.map(i => (
+  for (i of results){
+  console.log(i['id'])
         School.create(
             {
+                id: i['id'],
                 fafsa: i['ope6_id'],
                 name: i['school.name'],
                 city : i['school.city'],
@@ -70,11 +70,20 @@ function createSchoolsArray1(results){
                 admin_test_reqs: i['latest.admissions.test_requirements'],
                 grad_earnings: i['latest.earnings.6_yrs_after_entry.median_earnings_independent'],
                 
-            })))
-    return(schoolResults)
-
-        
-        };
+              })
+    
+              let majorList = (i['latest.programs.cip_4_digit'])            
+              for (m of majorList){
+                console.log(i['id'])
+                Major.create({
+                  major: m.title,
+                  SchoolId: i['id'],
+                }
+                )}  
+                
+              } 
+      
+};
 
 const items = [
     {name : 'Gold'},
