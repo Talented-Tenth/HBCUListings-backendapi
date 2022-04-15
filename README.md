@@ -34,37 +34,11 @@ We used the U.S Department of Education College Scorecard API as our main source
 
 # Introduction to using POSTMAN to access HBCU API
 
-<ul>
-<li>-To Create a listing of users with GET;</li>
-<li>GET http://localhost:3000/users</li>
-<li></li>  
-<li>-To Delete a user to the database with Delete;</li>
-<li>Delete http://localhost:3000/users</li>
-<li>Body, raw, json</li> 
-<li></li> 
-<li>-To Add a user to the database with POST;</li>
-<li>POST http://localhost:3000/users</li>
-<li>Body, raw, json</li>
- <li> "name":"Dan"</li>
-<li></li>
-<li>-To Update a user to the database with PUT;</li>
-<li>PUT http://localhost:3000/users</li>
-<li>Body, raw, json</li>
- <li> "id":5</li>
-  <li>"name":"Debra"</li>
-</ul>
+*Click on the link below for intstructions on how to use Postman:
 
-# HBCU History:
-Institutions of higher education in the United States founded prior to 1964 for African American students. The term was created by the Higher Education Act of 1965, which expanded federal funding for colleges and universities... Their was a great debate in 1881 between Booker T. Washington who founded Tuskegee University and was an exemplary supporter of vocational training, which emphasized agricultural and industrial education vs W.E.B DuBois a Harvard trainded sociologist who was a prominent exponent of the intellectual approach to education. Du Bois argued for the necessity of cultivating a "talented tenth" of well-educated community leaders... for more historial information click on the link below:
-https://www.britannica.com/topic/historically-black-colleges-and-universities
+https://documenter.getpostman.com/view/18690426/Uyr5myYG
 
 
-![image](https://user-images.githubusercontent.com/94479449/163096021-a134fee9-d716-4059-ba39-100cd0365c6e.png)
-# Cheyney University
-<ul>
-<li>Cheyney University was founded in 1837 as the Institute
-for Colored Youth, making it the oldest HBCU in the nation</li>
-</ul>
   
 # Technologies Used for HBCU Backend
 <ul>
@@ -79,7 +53,9 @@ for Colored Youth, making it the oldest HBCU in the nation</li>
 </ul>
 
 *Click on the link below for detailed examples of how to use Postman:
-https://documenter.getpostman.com/view/17252203/UUxxgoaP
+<ul>
+<li>https://documenter.getpostman.com/view/17252203/UUxxgoaP</li>
+</ul>
 
 # Code Dependencies for Backend
 <ul>
@@ -92,21 +68,6 @@ https://documenter.getpostman.com/view/17252203/UUxxgoaP
 </ul>
 
 
-# Project Planning
-
-<ul>
-<li>JIRA</i>
-<img width="800" alt="image" src="https://user-images.githubusercontent.com/94479449/162358989-2d3f25dc-157f-47c5-8afb-bd5ed3460156.png">
-
-
-<li>ERD</i>
-
-<li>This Entity Realtionship Diagram is a One-TO-MANY because it shows the relationship of one user being able to select several HBCU universities or colleges to create their list of favorite schools.</i>
-
-![HBCU Talented Tenth drawio](https://user-images.githubusercontent.com/94479449/163228700-f27f1730-b5ed-48a6-bbe0-56e074bc7baf.png)
-
-</ul>
-
 # HTTP Status Codes
 
 <ul>
@@ -118,47 +79,27 @@ https://documenter.getpostman.com/view/17252203/UUxxgoaP
 </ul>
 
 Click on the link below for detailed explanation of status codes:
-https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
-
-# Sample Code for Regex
-A RegEx (Regular Expression), is a sequence of characters that forms a search pattern. RegEx can be used to check if a string contains the specified search pattern.
-
 <ul>
-<li>const searchTerm = req.query.search;</i>
-  <li>const closeMatch = { "$regex": searchTerm, "$options": "i" };</i>
- <li>//find close matches for search term in username, title, tags, or body</i>
- <li>Post.find( { $or:[</i> 
-    <li>{'username':closeMatch},</i>
-    <li>{'title':closeMatch},</i> 
-    <li>{'tags':{$in: [searchTerm]}},</i> 
-    <li>{ "body":closeMatch}</i>
- <li>]})</i>
+<li>https://en.wikipedia.org/wiki/List_of_HTTP_status_codes</i>
 </ul>
 
-# Github - Branch Update Process
+# Sample Code for Sequelize - Model Querying - Basic Operators
+
+<img width="473" alt="image" src="https://user-images.githubusercontent.com/94479449/163604706-da7303ef-228e-4342-931b-2e1c0570853d.png">
+
+
+
+
+
+# HBCU API DATA Elements
+
+Click on the link below for details of the API calls:
 <ul>
-<li>How to perform the Git Hub Branch Process:</i>
-<li>1. git checkout -b "new branch name"</i>
-<li>2. git status</i>
-<li>3. git add .</i>
-<li>4. git commit -m " Provide notes what you are committing"</i>
-<li>5. git push origin (new branch name)</i>
-<li>Then go to your git hub and merge the request. Once you are done then go back to your vs code.</i>
-<li>6. git checkout main</i>
-<li>7. git pull origin main</i>
+<li>https://verizon.enterprise.slack.com/files/U02EKK1G43V/F03BG8Y420N/hbcu_api_data_elements.xlsx?origin_team=T013H7EC8R5&origin_channel=C03AFBUMPQA</i>
 </ul>
-
-
   
-# Production
-The planning process for Talented-Tenth/HBCUListings-backendapi started each day with:
-- Daily Standup meeting with the Scrum Master before the start of the work day and completing Daily Exit Tickets at the   end of the day.
-- We Individually and as a group worked on our assigned tasks.
-- Watched class recordings together to better understand certain concepts for a better realization of our project.
-- Built a solid backend then worked on the frontend structures.
-- Handled debuggings and other issues that came up.
 
-# Team Members
+# DevOp Developers
 - Irene Bowers
 - Erica Newman
 - Crystal Johnson
