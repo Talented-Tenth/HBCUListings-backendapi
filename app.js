@@ -24,7 +24,7 @@ const axios = require('axios');
 
 require('dotenv').config('.env');
 
-const {User, Item, School, Favorites, Favorite} = require('./models');
+const {User, Item, School, Favorites, Favorite, Major} = require('./models');
 const { use } = require("bcrypt/promises");
 const { application } = require("express");
 const { sequelize } = require("./db");
@@ -119,6 +119,12 @@ app.get('/users', async(req, res) =>{
     res.json({singleschool});
   })
   
+  app.get(`/majors/:schoolid`, async (req,res)=> {
+    const major = await Major.findAll(
+      {where: {SchoolId: req.params.schoolid}});
+      res.json({major});
+  })
+  
   app.get(`/schoolname/:name`, async (req,res) => {
     const searchTerm = req.params.name;
       const schoolsname = await School.findAll(
@@ -148,6 +154,9 @@ app.get('/users', async(req, res) =>{
       });
     res.json({schoolsowner});  
   })
+
+
+
 
 //delete item from from favorite
 app.delete(`/favorite/:userid/:schoolid`, async (req,res) => {
