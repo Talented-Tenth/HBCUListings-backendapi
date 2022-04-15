@@ -1,36 +1,31 @@
 # Talented Tenth 
 
-<center>
-  <p><img src=/"public/img/LogoWhite2.JPG" width="200" height="200"/></p>
-</center>
-
-<center>
-  <p><img src="\public\img\LogoWhite2.JPG"how to width="200" height="200"/></p>
-</center>
-
-<center><img src="LogoWhite2.JPG" alt="centered image" height="200" width="200"></center>
-
-![image](https://user-images.githubusercontent.com/94479449/163514553-b7f98158-186c-4f18-91ca-bdcecce495f9.png) 
-
-<img src="https://user-images.githubusercontent.com/94479449/163514553-b7f98158-186c-4f18-91ca-bdcecce495f9.png" class=centerImage" alt="CH Logo" height="200" width="200"> 
+  <p float="left">
+   <img src="public/img/BannerTTh.JPG" width="1000" height="450"     /> 
+   </p>
 
 
 # Historically Black Colleges & Universities API
 
-The Talented 10th HBCU API was developed to allow for reading an HTTP API that queries available datasets of Historically Black College and Universities. This API will allow sign in / sign up authentication and create a favorites list, add to favorites list, and delete from favorites list.
+The Talented 10th HBCU API was developed to allow for reading an HTTP API that queries available datasets of Historically Black College and Universities. This API will allow authorization and authentication as well as the ability to create, GET, POST, and DELETE a favorites list of preferred HBCU college and unversities.
 
 This document explains:
 <ul>
-<li>How to create a "favorite listing" of schools which can include the schools(location, size, population, majors, cost etc.)</li>
+<li>How to create a "favorite listing" of schools by location, major, size, cost, population, etc.</li>
 <li>How to create query results using C.R.U.D endpoints</li>
-<li>The data is read only for Create and Update</li> 
-<li>The favorite lisiting will allow for Post and Delete</li> 
+<li>The data is read only but allow for Create, Post, Delete a favorites list</li> 
 <li>How to use the "wild card" search for data</li>  
 <li>How to define and execute queries as URLs</li>
-<li>Extract query results in JSON format</li>
+<li>Extracting query results in JSON format</li>
 <li>Detecting query errors with error messaging and HTTP error codes</li>
 <li>Authentication and Authorization using Basic Auth and OAuth</li>  
 </ul>
+
+# Acknoledgements:
+Our name, Talented Tenth, is coined from the concept of Harvard educator and author, W.E.B Dubois, who emphasized the necessity of cultivating a "talented tenth" of well-educated community leaders to develop the leadership of black Americans, to become leaders to guide the devlopment and uplift of our communites through higher education.
+
+We used the U.S Department of Education College Scorecard API as our main source of data to build our datasets of HBCU Colleges and Universities API. The purpose of this API is allow developers to have access to a dynamic dataset of HBCU listing supporting further development of APIs promoting HBCUs (Historical Black College and Universities).
+
 
 # API Access 
 <ul>
@@ -58,11 +53,6 @@ This document explains:
  <li> "id":5</li>
   <li>"name":"Debra"</li>
 </ul>
-
-We started with an initial plan where we put our various ideas together on a google doc. Created an organization with two repositories (Backend & Frontend). Frontend with BasicAuth (for user input) and Backend (Seed file database). Creation of the project's organization and Cloning of repository. Initialized and installed tools as well as relevant dependencies. Revised scripts in package.json. Created development branches and testing environments. Created sprints to enable a smooth project planning in Jira. Established the Entity Relational Diagram with Draw.io. Distributed tasks between team members.
-
-# Project Goals:
-The goal of this project is for developers to have access to data regarding HBCUs for the creation of APIs for HBCUs (Historical Black College and Universities).
 
 # HBCU History:
 Institutions of higher education in the United States founded prior to 1964 for African American students. The term was created by the Higher Education Act of 1965, which expanded federal funding for colleges and universities... Their was a great debate in 1881 between Booker T. Washington who founded Tuskegee University and was an exemplary supporter of vocational training, which emphasized agricultural and industrial education vs W.E.B DuBois a Harvard trainded sociologist who was a prominent exponent of the intellectual approach to education. Du Bois argued for the necessity of cultivating a "talented tenth" of well-educated community leaders... for more historial information click on the link below:
