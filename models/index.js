@@ -61,6 +61,8 @@ School.init({
 
 Major.init({
     major: DataTypes.STRING,
+    degree: DataTypes.STRING,
+
    
 }, {
     sequelize,

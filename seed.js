@@ -25,7 +25,7 @@ const createFavorites = async () => {
 }
 
 const createSchools = async (page) => {
-    const url = `https://api.data.gov/ed/collegescorecard/v1/schools.json?school.minority_serving.historically_black=1&fields=id,ope6_id,school.name,school.state,school.city,school.zip,location.lat,location.lon,school.ownership,school.school_url,school.carnegie_size_setting,latest.student.size,latest.student.demographics.women,latest.student.demographics.men,school.institutional_characteristics.level,school.open_admissions_policy,latest.cost.tuition.in_state,latest.cost.tuition.out_of_state,academics.program_reporter.programs_offered,latest.cost.booksupply,latest.cost.roomboard.oncampus,latest.cost.roomboard.offcampus,latest.admissions.test_requirements,latest.earnings.6_yrs_after_entry.median_earnings_independent,latest.programs.cip_4_digit.title&page=${page}&per_page=99&api_key=8Ajj4V22PvwDtL2ocDvut35YqCXArI2TVhvQWfvE`;
+    const url = `https://api.data.gov/ed/collegescorecard/v1/schools.json?school.minority_serving.historically_black=1&fields=id,ope6_id,school.name,school.state,school.city,school.zip,location.lat,location.lon,school.ownership,school.school_url,school.carnegie_size_setting,latest.student.size,latest.student.demographics.women,latest.student.demographics.men,school.institutional_characteristics.level,school.open_admissions_policy,latest.cost.tuition.in_state,latest.cost.tuition.out_of_state,academics.program_reporter.programs_offered,latest.cost.booksupply,latest.cost.roomboard.oncampus,latest.cost.roomboard.offcampus,latest.admissions.test_requirements,latest.earnings.6_yrs_after_entry.median_earnings_independent,latest.programs.cip_4_digit.title,latest.programs.cip_4_digit.credential.title&page=${page}&per_page=99&api_key=8Ajj4V22PvwDtL2ocDvut35YqCXArI2TVhvQWfvE`;
   axios.get(url)
   .then(function (response) {
    
@@ -76,10 +76,11 @@ function createSchoolsArray1(results){
     
             
             for (m of majorList){
-              // console.log(m)
               Major.create({
-                major : m.title,
-                SchoolId: i['id'],
+              major : m.title,
+              degree : m.credential.title,
+              SchoolId: i['id'],
+
               }
               )}  
               
