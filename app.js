@@ -32,6 +32,7 @@ const { sequelize } = require("./db");
 
 // initialise Express
 const app = express();
+app.use(express.static('public'));
 
 //allow cross-origin resource sharing
 app.use(cors());
@@ -74,7 +75,7 @@ async function dbAuthorizer(username,password, callback){
 // routes go here
 // Method GET
 app.get('/', (req, res) => {
-  res.send('<h1>App Running</h1>')
+  res.sendFile("/index.html")
 })
 
 // returns all items
