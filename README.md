@@ -1,15 +1,59 @@
-# Talented Tenth  
+# Talented Tenth 
+
+<center>
+  <p><img src=/"public/img/LogoWhite2.JPG" width="200" height="200"/></p>
+</center>
+
+<center>
+  <p><img src="\public\img\LogoWhite2.JPG"how to width="200" height="200"/></p>
+</center>
+
+<center><img src="LogoWhite2.JPG" alt="centered image" height="200" width="200"></center>
+
 
 # Historically Black Colleges & Universities API
 
-This Historically Black Colleges & Universities API was developed to provide a means to have access to a database that provides data regarding HBCUs.
+The Talented 10th HBCU API was developed to allow for reading an HTTP API that queries available datasets of Historically Black College and Universities. This API will allow sign in / sign up authentication and create a favorites list, add to favorites list, and delete from favorites list.
 
 This document explains:
 <ul>
-<li>How to create a "favorite listing" of schools which can include the schools(location, size, population, majors, cost etc.).</li>
-<li>How to create query results using C.R.U.D endpoints.</li>
+<li>How to create a "favorite listing" of schools which can include the schools(location, size, population, majors, cost etc.)</li>
+<li>How to create query results using C.R.U.D endpoints</li>
+<li>The data is read only for Create and Update</li> 
+<li>The favorite lisiting will allow for Post and Delete</li> 
+<li>How to use the "wild card" search for data</li>  
+<li>How to define and execute queries as URLs</li>
+<li>Extract query results in JSON format</li>
+<li>Detecting query errors with error messaging and HTTP error codes</li>
+<li>Authentication and Authorization using Basic Auth and OAuth</li>  
 </ul>
 
+# API Access 
+<ul>
+<li>A vaild username and password are required to access the API data.</li>
+</ul>
+
+# Introduction to using POSTMAN to access HBCU API
+
+<ul>
+<li>-To Create a listing of users with GET;</li>
+<li>GET http://localhost:3000/users</li>
+<li></li>  
+<li>-To Delete a user to the database with Delete;</li>
+<li>Delete http://localhost:3000/users</li>
+<li>Body, raw, json</li> 
+<li></li> 
+<li>-To Add a user to the database with POST;</li>
+<li>POST http://localhost:3000/users</li>
+<li>Body, raw, json</li>
+ <li> "name":"Dan"</li>
+<li></li>
+<li>-To Update a user to the database with PUT;</li>
+<li>PUT http://localhost:3000/users</li>
+<li>Body, raw, json</li>
+ <li> "id":5</li>
+  <li>"name":"Debra"</li>
+</ul>
 
 We started with an initial plan where we put our various ideas together on a google doc. Created an organization with two repositories (Backend & Frontend). Frontend with BasicAuth (for user input) and Backend (Seed file database). Creation of the project's organization and Cloning of repository. Initialized and installed tools as well as relevant dependencies. Revised scripts in package.json. Created development branches and testing environments. Created sprints to enable a smooth project planning in Jira. Established the Entity Relational Diagram with Draw.io. Distributed tasks between team members.
 
