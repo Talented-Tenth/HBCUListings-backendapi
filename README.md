@@ -10,6 +10,10 @@
 
 <center><img src="LogoWhite2.JPG" alt="centered image" height="200" width="200"></center>
 
+![image](https://user-images.githubusercontent.com/94479449/163514553-b7f98158-186c-4f18-91ca-bdcecce495f9.png) 
+
+<img src="https://user-images.githubusercontent.com/94479449/163514553-b7f98158-186c-4f18-91ca-bdcecce495f9.png" class=centerImage" alt="CH Logo" height="200" width="200"> 
+
 
 # Historically Black Colleges & Universities API
 
