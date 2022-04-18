@@ -263,7 +263,6 @@ app.get('/tokens', async(req,res) =>{
   url: 'https://dev-52yany8j.us.auth0.com/oauth/token',
   headers: { 'content-type': 'application/json' },
   body: process.env.TOKEN_REQ_BODY
-  // body: '{"client_id":"JoZuEB3yZv0H8Yt7AdCU3tuIXPMBJeOk","client_secret":"pv6qcOB-hCWtOXrmwWSscPlmcdAR3wybXeTXt6xhVMD_hW6eccrR8xDajFHUgbxe","audience":"http://localhost:3000","grant_type":"client_credentials"}'
 
  };
 
