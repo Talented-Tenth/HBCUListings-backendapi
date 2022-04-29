@@ -7,6 +7,7 @@ class Item extends Model {}
 class School extends Model {}
 class Favorite extends Model {}
 class Major extends Model {}
+// Image
 
 User.init({
     name: DataTypes.STRING,
@@ -23,6 +24,8 @@ Item.init({
     sequelize,
     timestamps: false,
 });
+
+// Image
 
 School.init({
 
