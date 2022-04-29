@@ -2,6 +2,9 @@
 const express = require("express");
 const bcrypt = require('bcrypt');
 
+// multer
+const multer = require('multer');
+
 const basicAuth = require('express-basic-auth');
 const Sequelize = require("sequelize");
 const Op = Sequelize.Op;
@@ -30,6 +33,7 @@ const { application } = require("express");
 const { sequelize } = require("./db");
 
 
+
 // initialise Express
 const app = express();
 app.use(express.static('public'));
@@ -55,7 +59,7 @@ algorithms: ['RS256']
 });
 
 //function to compare username and password with db content
-//return boolean indicating a passwor match
+//return boolean indicating a password match
 async function dbAuthorizer(username,password, callback){
   try{
     //get matching user from db
@@ -71,6 +75,17 @@ async function dbAuthorizer(username,password, callback){
   }
 }
 
+//multer options
+const filesStorageEngine = multer.diskStorage({
+  destination: (req, file, cb) => {
+    cb(null, "./images");
+  },
+  filename: (req, file, cb) => {
+    cb(null, Date.now() + "--" + file.originalname);
+  },
+});
+
+const upload = multer({ storage: filesStorageEngine });
 
 // routes go here
 // Method GET
@@ -187,7 +202,6 @@ app.post('/users', async(req,res) =>{
     console.log(hash)
     res.json({newUser})
   })
-
 })
 
 app.post(`/users/:userid/favorites`, async (req,res) => {
@@ -198,7 +212,15 @@ app.post(`/users/:userid/favorites`, async (req,res) => {
     res.send(`${favorites.SchoolId} has been added to your favorites`)
 })
 
+app.post("/single", upload.single("image"), (req,res) => {
+     console.log(req.file);
+     res.send(`Awesome, Single File image uploaded successfully!!!`);
+  });
 
+app.post(`/multiple`, upload.array("images", 3), (req,res) => {
+    console.log(req.files);
+    res.send(`Awesome, Multiple File images uploaded successfully!!!`);
+ });
 
 // app.post('/sessions', async(req,res) =>{
 //   const thisUser = await User.findOne({
