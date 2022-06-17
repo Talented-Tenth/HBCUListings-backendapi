@@ -125,7 +125,7 @@ app.get('/users', async(req, res) =>{
     res.json({favorites});
    }); 
 
-   app.get('/schools', jwtCheck, async(req, res) =>{
+   app.get('/schools', async(req, res) =>{
     let schools = await School.findAll();
     res.json({schools});
   })
@@ -177,7 +177,7 @@ app.get('/users', async(req, res) =>{
 
 
 
-//delete item from from favorite
+//delete item from favorite
 app.delete(`/favorite/:userid/:schoolid`, async (req,res) => {
   const deletefave = await Favorite.findOne({
   where: {UserId: req.params.userid, SchoolId: req.params.schoolid}
@@ -216,6 +216,11 @@ app.post("/single", upload.single("image"), (req,res) => {
      console.log(req.file);
      res.send(`Awesome, Single File image uploaded successfully!!!`);
   });
+
+app.get("/", (req, res) => {
+  res.sendFile(path.join(__dirname, "index.html"));
+});
+
 
 app.post(`/multiple`, upload.array("images", 3), (req,res) => {
     console.log(req.files);
