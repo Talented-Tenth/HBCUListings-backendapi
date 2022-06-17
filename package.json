@@ -4,10 +4,11 @@
   "description": "HBCU Listings",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "nodemon app.js",
     "seed": "node seed.js"
   },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Talented-Tenth/HBCUListings-backendapi.git"
