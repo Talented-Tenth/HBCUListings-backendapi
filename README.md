@@ -1,5 +1,4 @@
 # Talented Tenth 
-
   <p float="left">
    <img src="public/img/BannerTTh.JPG" width="1000" height="450"     /> 
    </p>
