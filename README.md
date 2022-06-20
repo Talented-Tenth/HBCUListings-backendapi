@@ -1,5 +1,4 @@
 # Talented Tenth 
-
   <p float="left">
    <img src="public/img/BannerTTh.JPG" width="1000" height="450"     /> 
    </p>
@@ -104,5 +103,6 @@ Click on the link below for details of the API calls:
 - Erica Newman
 - Crystal Johnson
 - Mohammad Kasem
+
 
 
