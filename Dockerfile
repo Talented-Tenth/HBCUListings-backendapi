@@ -27,13 +27,15 @@ FROM base as prod
 
 # clean dependancy install excluding dev dependancies
 RUN npm ci --production
-RUN node seed.js
+
 
 # copy files to image
 COPY . .
 
 #expose the port in the docker container
 EXPOSE 3000
+
+RUN node seed.js
 
 # the command to start our app
 CMD [ "npm", "start" ]
