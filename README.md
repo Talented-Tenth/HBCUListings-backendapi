@@ -1,6 +1,6 @@
 # Talented Tenth 
   <p float="left">
-   <img src="public/img/BannerTTh.JPG" width="1000" height="450"     /> 
+   <img src="public/img/HBCUTours.jpg" width="1000" height="450"     /> 
    </p>
 
 
