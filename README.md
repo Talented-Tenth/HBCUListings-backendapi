@@ -25,6 +25,9 @@ Our name, Talented Tenth, is coined from the concept of Harvard educator and aut
 
 We used the U.S Department of Education College Scorecard API as our main source of data to build our datasets of HBCU Colleges and Universities API. The purpose of this API is allow developers to have access to a dynamic dataset of HBCU listing supporting further development of APIs promoting HBCUs (Historical Black College and Universities).
 
+# Code Deploy Updates:
+You have successfully updated using Elastic Beanstalk!!!
+
 
 # API Access 
 <ul>
