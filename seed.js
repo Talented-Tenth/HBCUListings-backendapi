@@ -227,90 +227,90 @@ function createSchoolsArray1(results){
         tour_url : 'https://www.desu.edu/admissions/visit-dsu',
         SchoolId : 130934
     },  
-//     {
-//         school: 'Denmark Technical College',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://outlook.office365.com/owa/calendar/DenmarkTechnicalCollege1@denmarktech0.onmicrosoft.com/bookings/',
-//         SchoolId : '217989'
-//     },  
-//     {
-//         school: 'Dillard University',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://www.dillard.edu/admissions/visit-dillard.php',
-//         SchoolId : '158802'
-//     },  
-//     {
-//         school: 'University of the District of Columbia',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://www.udc.edu/about/tours/',
-//         SchoolId : '131399'
-//     },  
-//     {
-//         school: 'Edward Waters University',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://www.ewc.edu/covid/events-and-campus-tours/',
-//         SchoolId : '133526'
-//     },  
-//     {
-//         school: 'Elizabeth City State University',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://www.ecsu.edu/about/visit/',
-//         SchoolId : '198507'
-//     },
-//     {
-//         school: 'Fayetteville State University',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://broncoville.uncfsu.edu/tourpicker.asp',
-//         SchoolId : '198543'
-//     },  
-//     {
-//         school: 'Fisk University',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://www.fisk.edu/admissions/campus-visit/',
-//         SchoolId : '220181'
-//     },  
-//     {
-//         school: 'Florida A&M University',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://www.famu.edu/students/new-student-orientation/campus-visits.php',
-//         SchoolId : '133650'
-//     },  
-//     {
-//         school: 'Florida Memorial University',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://apply.fmuniv.edu/portal/daily_visits',
-//         SchoolId : '133979'
-//     },
-//     {  	
-//         school: 'Fort Valley State University',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://www.fvsu.edu/campus-tours-2',
-//         SchoolId : '139719'
-//     },
-//     {
-//         school: 'Gadsden State Community College (Valley Street campus)',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://www.gadsdenstate.edu/visit.cms',
-//         SchoolId : '101240'
-//     },  
-//     {
-//         school: 'Grambling State University',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://www.gram.edu/visit/',
-//         SchoolId : '159009'
-//     },  
-//     {
-//         school: 'Hampton University',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://www.hamptonu.edu/visitor/tours.cfm',
-//         SchoolId : '232265'
-//     },  
-//     {
-//         school: 'Harris-Stowe State University',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://futurehornet.hssu.edu/tourpicker.asp',
-//         SchoolId : '177551'
-//     },  
+    {
+        school: 'Denmark Technical College',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://outlook.office365.com/owa/calendar/DenmarkTechnicalCollege1@denmarktech0.onmicrosoft.com/bookings/',
+        SchoolId : 217989
+    },  
+    {
+        school: 'Dillard University',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://www.dillard.edu/admissions/visit-dillard.php',
+        SchoolId : 158802
+    },  
+    {
+        school: 'University of the District of Columbia',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://www.udc.edu/about/tours/',
+        SchoolId : 131399
+    },  
+    {
+        school: 'Edward Waters University',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://www.ewc.edu/covid/events-and-campus-tours/',
+        SchoolId : 133526
+    },  
+    {
+        school: 'Elizabeth City State University',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://www.ecsu.edu/about/visit/',
+        SchoolId : 198507
+    },
+    {
+        school: 'Fayetteville State University',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://broncoville.uncfsu.edu/tourpicker.asp',
+        SchoolId : 198543
+    },  
+    {
+        school: 'Fisk University',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://www.fisk.edu/admissions/campus-visit/',
+        SchoolId : 220181
+    },  
+    {
+        school: 'Florida A&M University',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://www.famu.edu/students/new-student-orientation/campus-visits.php',
+        SchoolId : 133650
+    },  
+    {
+        school: 'Florida Memorial University',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://apply.fmuniv.edu/portal/daily_visits',
+        SchoolId : 133979
+    },
+    {  	
+        school: 'Fort Valley State University',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://www.fvsu.edu/campus-tours-2',
+        SchoolId : 139719
+    },
+    {
+        school: 'Gadsden State Community College (Valley Street campus)',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://www.gadsdenstate.edu/visit.cms',
+        SchoolId : 101240
+    },  
+    {
+        school: 'Grambling State University',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://www.gram.edu/visit/',
+        SchoolId : 159009
+    },  
+    {
+        school: 'Hampton University',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://www.hamptonu.edu/visitor/tours.cfm',
+        SchoolId : 232265
+    },  
+    {
+        school: 'Harris-Stowe State University',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://futurehornet.hssu.edu/tourpicker.asp',
+        SchoolId : 177551
+    },  
 //     // {
 //     //     school: 'Hinds Community College at Utica',
 //     //     image: '06_american_baptist.jpg',
@@ -323,48 +323,48 @@ function createSchoolsArray1(results){
 //     //     tour_url : 'https://www.hoodseminary.edu/future-students/admissions/virtual-tour-of-hood',
 //     //     SchoolId : ''
 //     // },
-//     {
-//         school: 'Howard University',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://admission.howard.edu/visit',
-//         SchoolId : '131520'
-//     }, 
-//     {
-//         school: 'Huston-Tillotson University',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://htu.edu/campus-tour',
-//         SchoolId : '225575'
-//     },  
-//     {
-//         school: 'Interdenominational Theological Center',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://www.itc.edu/admissions/request-information/',
-//         SchoolId : '140146'
-//     },  
-//     {
-//         school: 'J. F. Drake State Technical College',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://www.drakestate.edu/admissions/campus-maps-tours',
-//         SchoolId : '101462'
-//     },  
-//     {
-//         school: 'Jackson State University',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://www.jsums.edu/virtual-tour/',
-//         SchoolId : '175856'
-//     },  
-//     {
-//         school: 'Jarvis Christian College',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://www.jarvis.edu/prospective-students/campus-tour',
-//         SchoolId : '225885',
-//     },  
-//     {
-//         school: 'Johnson C. Smith University',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://www.jcsu.edu/admissions/schedule-a-tour/tour-request/',
-//         SchoolId : '198756'
-//     },  
+    {
+        school: 'Howard University',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://admission.howard.edu/visit',
+        SchoolId : 131520
+    }, 
+    {
+        school: 'Huston-Tillotson University',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://htu.edu/campus-tour',
+        SchoolId : 225575
+    },  
+    {
+        school: 'Interdenominational Theological Center',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://www.itc.edu/admissions/request-information/',
+        SchoolId : 140146
+    },  
+    {
+        school: 'J. F. Drake State Technical College',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://www.drakestate.edu/admissions/campus-maps-tours',
+        SchoolId : 101462
+    },  
+    {
+        school: 'Jackson State University',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://www.jsums.edu/virtual-tour/',
+        SchoolId : 175856
+    },  
+    {
+        school: 'Jarvis Christian College',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://www.jarvis.edu/prospective-students/campus-tour',
+        SchoolId : 225885
+    },  
+    {
+        school: 'Johnson C. Smith University',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://www.jcsu.edu/admissions/schedule-a-tour/tour-request/',
+        SchoolId : 198756
+    },  
 //     // {
 //     //     school: 'Johnson C Smith Theological Seminary',
 //     //     image: '06_american_baptist.jpg',
@@ -449,234 +449,234 @@ function createSchoolsArray1(results){
 //     //     tour_url : 'https://mlaw.edu/contact-us/',
 //     //     SchoolId : ''
 //     // },
-//     {
-//         school: 'Mississippi Valley State University',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://www.mvsu.edu/schedule-virtual-tour',
-//         SchoolId : '176044'
-//     },  
-//     {
-//         school: 'Morehouse College',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://www.morehouse.edu/admissions/visit-and-tour/',
-//         SchoolId : '140553'
-//     },
-//     {
-//         school: 'Morehouse School of Medicine',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://www.msm.edu/Admissions/events.php',
-//         SchoolId : '140562'
-//     },  
-//     {	
-//         school: 'Morgan State University',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://www.youvisit.com/tour/morgan/morgan_state_u?pl=v',
-//         SchoolId : '163453'
-//     },  
+    {
+        school: 'Mississippi Valley State University',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://www.mvsu.edu/schedule-virtual-tour',
+        SchoolId : 176044
+    },  
+    {
+        school: 'Morehouse College',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://www.morehouse.edu/admissions/visit-and-tour/',
+        SchoolId : 140553
+    },
+    {
+        school: 'Morehouse School of Medicine',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://www.msm.edu/Admissions/events.php',
+        SchoolId : 140562
+    },  
+    {	
+        school: 'Morgan State University',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://www.youvisit.com/tour/morgan/morgan_state_u?pl=v',
+        SchoolId : 163453
+    },  
 //     // {
 //     //     school: 'Morris Brown College',
 //     //     image: '06_american_baptist.jpg',
 //     //     tour_url : 'https://morrisbrown.edu/campus-tours/',
 //     //     SchoolId : ''
 //     // },  
-//     {
-//         school: 'Morris College',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://www.morris.edu/our-college/campus-view',
-//         SchoolId : '218399'
-//     }, 
-//     {
-//         school: 'Norfolk State University',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://www.nsu.edu/Admissions-Aid/Learn-About-NSU/Visit-NSU',
-//         SchoolId : '232937'
-//     },
-//     {
-//         school: 'North Carolina A&T State University',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://www.ncat.edu/visit/index.php',
-//         SchoolId : '199102'
-//     },  
-//     {
-//         school: 'North Carolina Central University',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://www.youvisit.com/tour/nccu',
-//         SchoolId : '199157'
-//     },
-//     {
-//         school: 'Oakwood University',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://www.youvisit.com/tour/oakwood',
-//         SchoolId : '101912'
-//     },
-//     {
-//         school: 'Paine College',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://www.paine.edu/web/visitors/visitors',
-//         SchoolId : '140720'
-//     },
+    {
+        school: 'Morris College',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://www.morris.edu/our-college/campus-view',
+        SchoolId : 218399
+    }, 
+    {
+        school: 'Norfolk State University',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://www.nsu.edu/Admissions-Aid/Learn-About-NSU/Visit-NSU',
+        SchoolId : 232937
+    },
+    {
+        school: 'North Carolina A&T State University',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://www.ncat.edu/visit/index.php',
+        SchoolId : 199102
+    },  
+    {
+        school: 'North Carolina Central University',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://www.youvisit.com/tour/nccu',
+        SchoolId : 199157
+    },
+    {
+        school: 'Oakwood University',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://www.youvisit.com/tour/oakwood',
+        SchoolId : 101912
+    },
+    {
+        school: 'Paine College',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://www.paine.edu/web/visitors/visitors',
+        SchoolId : 140720
+    },
 //     // {
 //     //     school: 'Payne Theological',
 //     //     image: '06_american_baptist.jpg',
 //     //     tour_url : 'https://payneseminary.edu/contact-us/',
 //     //     SchoolId : ''
 //     // },
-//     {
-//         school: 'Philander Smith College',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://www.philander.edu/admissions/visit-psc',
-//         SchoolId : '107600'
-//     },  
-//     {    	
-//         school: 'Prairie View A&M University',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://www.pvamu.edu/recruitment/campus-tours/',
-//         SchoolId : '227526'    
-//     },
-//     {
-//         school: 'Rust College',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://www.rustcollege.edu/schedule-a-visit/ ',
-//         SchoolId : '176318'
-//     },
-//     {
-//         school: 'Savannah State University',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://www.savannahstate.edu/prospective-student/tours.shtml',
-//         SchoolId : '140960'
-//     },
+    {
+        school: 'Philander Smith College',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://www.philander.edu/admissions/visit-psc',
+        SchoolId : 107600
+    },  
+    {    	
+        school: 'Prairie View A&M University',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://www.pvamu.edu/recruitment/campus-tours/',
+        SchoolId : 227526    
+    },
+    {
+        school: 'Rust College',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://www.rustcollege.edu/schedule-a-visit/ ',
+        SchoolId : 176318
+    },
+    {
+        school: 'Savannah State University',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://www.savannahstate.edu/prospective-student/tours.shtml',
+        SchoolId : 140960
+    },
 //     // {
 //     //     school: 'Selma University',
 //     //     image: '06_american_baptist.jpg',
 //     //     tour_url : 'https://www.selmauniversity.edu/academics',
 //     //     SchoolId : ''
 //     // },
-//     {
-//         school: 'Shaw University',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://www.shawu.edu/campustours/?terms=campus%20visit',
-//         SchoolId : '199643'
-//     },
-//     {
-//         school: 'Shelton State Community College- C A Fredd Campus',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://www.sheltonstate.edu/admissions-financial-aid/recruiting-and-outreach/visit-us/',
-//         SchoolId : '102067'
-//     },
-//     {    	
-//         school: 'Shorter College',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://www.shortercollege.edu/schedule-a-tour/',
-//         SchoolId : '107840'
-//     },
-//     {
-//         school: 'Simmons College of Kentucky',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://calendly.com/sckyadmissions/90min?month=2022-04',
-//         SchoolId : '461759'
-//     },
-//     {
-//         school: 'South Carolina State University',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://www2.scsu.edu/futurestudents/visitscstateuniversity.aspx',
-//         SchoolId : '218733'
-//     },
-//     {
-//         school: 'Southern University at New Orleans',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://www.suno.edu/page/visit-the-campus',
-//         SchoolId : '160630'
-//     },  
-//     {
-//         school: 'Southern University at Shreveport',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://www.susla.edu/page/schedule-a-visit',
-//         SchoolId : '160649'
-//     },
-//     {
-//         school: 'Southern University and A&M College',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://www.subr.edu/',
-//         SchoolId : '160621'
-//     },  
-//     {
-//         school: 'Southwestern Christian College',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'http://www.swcc.edu/directory.html',
-//         SchoolId : '228486'
-//     },  
-//     {
-//         school: 'Spelman College',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://www.spelman.edu/admissions/visit-us',
-//         SchoolId : '141060'
-//     },  
-//     {
-//         school: "St. Augustine's University",
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://www.st-aug.edu/',
-//         SchoolId : '199582'
-//     },  
-//     {
-//         school: "St. Philip's College",
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://www.alamo.edu/about-us/our-district/visit-our-district/',
-//         SchoolId : '227854'
-//     },
-//     {
-//         school: 'Stillman College',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://www.collegefactual.com/colleges/stillman-college/overview/virtual-tour/',
-//         SchoolId : '102270'
-//     },  
-//     {
-//         school: 'Talladega College',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://www.talladega.edu/tour-request/',
-//         SchoolId : '102298'
-//     },  
-//     {
-//         school: 'Tennessee State University',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://www.tnstate.edu/about_tsu/visit_us.aspx',
-//         SchoolId : '221838'
-//     },
-//     {
-//         school: 'Texas College',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://www.texascollege.edu/office-of-bradmissions/virtual-tour/',
-//         SchoolId : '228884'
-//     },  
-//     {
-//         school: 'Texas Southern University',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'http://www.tsu.edu/information-for/visitors.html',
-//         SchoolId : '229063'
-//     },
-//     {
-//         school: 'Tougaloo College',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://www.tougaloo.edu/admissions/visit-campus',
-//         SchoolId : '176406'
-//     },
-//     {
-//         school: 'H. Councill Trenholm State Community College',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://www.trenholmstate.edu/future-students/request-information/request-tour-for-school-organization/',
-//         SchoolId : '102313'
-//     },  
-//     {
-//         school: 'Tuskegee University',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://www.tuskegee.edu/tours',
-//         SchoolId : '102377'
-//     },
-//     {
-//         school: 'University of the Virgin Islands',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://www.uvi.edu/enrollment/admissions/admissions-campus_tour.aspx',
-//         SchoolId : '243665'
-//     },
+    {
+        school: 'Shaw University',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://www.shawu.edu/campustours/?terms=campus%20visit',
+        SchoolId : 199643
+    },
+    {
+        school: 'Shelton State Community College- C A Fredd Campus',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://www.sheltonstate.edu/admissions-financial-aid/recruiting-and-outreach/visit-us/',
+        SchoolId : 102067
+    },
+    {    	
+        school: 'Shorter College',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://www.shortercollege.edu/schedule-a-tour/',
+        SchoolId : 107840
+    },
+    {
+        school: 'Simmons College of Kentucky',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://calendly.com/sckyadmissions/90min?month=2022-04',
+        SchoolId : 461759
+    },
+    {
+        school: 'South Carolina State University',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://www2.scsu.edu/futurestudents/visitscstateuniversity.aspx',
+        SchoolId : 218733
+    },
+    {
+        school: 'Southern University at New Orleans',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://www.suno.edu/page/visit-the-campus',
+        SchoolId : 160630
+    },  
+    {
+        school: 'Southern University at Shreveport',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://www.susla.edu/page/schedule-a-visit',
+        SchoolId : 160649
+    },
+    {
+        school: 'Southern University and A&M College',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://www.subr.edu/',
+        SchoolId : 160621
+    },  
+    {
+        school: 'Southwestern Christian College',
+        image: '06_american_baptist.jpg',
+        tour_url : 'http://www.swcc.edu/directory.html',
+        SchoolId : 228486
+    },  
+    {
+        school: 'Spelman College',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://www.spelman.edu/admissions/visit-us',
+        SchoolId : 141060
+    },  
+    {
+        school: "St. Augustine's University",
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://www.st-aug.edu/',
+        SchoolId : 199582
+    },  
+    {
+        school: "St. Philip's College",
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://www.alamo.edu/about-us/our-district/visit-our-district/',
+        SchoolId : 227854
+    },
+    {
+        school: 'Stillman College',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://www.collegefactual.com/colleges/stillman-college/overview/virtual-tour/',
+        SchoolId : 102270
+    },  
+    {
+        school: 'Talladega College',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://www.talladega.edu/tour-request/',
+        SchoolId : 102298
+    },  
+    {
+        school: 'Tennessee State University',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://www.tnstate.edu/about_tsu/visit_us.aspx',
+        SchoolId : 221838
+    },
+    {
+        school: 'Texas College',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://www.texascollege.edu/office-of-bradmissions/virtual-tour/',
+        SchoolId : 228884
+    },  
+    {
+        school: 'Texas Southern University',
+        image: '06_american_baptist.jpg',
+        tour_url : 'http://www.tsu.edu/information-for/visitors.html',
+        SchoolId : 229063
+    },
+    {
+        school: 'Tougaloo College',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://www.tougaloo.edu/admissions/visit-campus',
+        SchoolId : 176406
+    },
+    {
+        school: 'H. Councill Trenholm State Community College',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://www.trenholmstate.edu/future-students/request-information/request-tour-for-school-organization/',
+        SchoolId : 102313
+    },  
+    {
+        school: 'Tuskegee University',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://www.tuskegee.edu/tours',
+        SchoolId : 102377
+    },
+    {
+        school: 'University of the Virgin Islands',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://www.uvi.edu/enrollment/admissions/admissions-campus_tour.aspx',
+        SchoolId : 243665
+    },
 //     {
 //         school: 'Virginia State University',
 //         image: '06_american_baptist.jpg',
@@ -719,18 +719,18 @@ function createSchoolsArray1(results){
 //         tour_url : 'https://www.wileyc.edu/campus-tours/',
 //         SchoolId : '229887'
 //     },
-//     {
-//         school: 'Winston-Salem State University',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://www.wssu.edu/about/visit.html',
-//         SchoolId : 199999
-//     },  
-//     {
-//         school: 'Xavier University of Louisiana',
-//         image: '06_american_baptist.jpg',
-//         tour_url : 'https://www.xula.edu/visitusundergraduate/individual-family-tours.html',
-//         SchoolId : 160904
-//     },
+    {
+        school: 'Winston-Salem State University',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://www.wssu.edu/about/visit.html',
+        SchoolId : 199999
+    },  
+    {
+        school: 'Xavier University of Louisiana',
+        image: '06_american_baptist.jpg',
+        tour_url : 'https://www.xula.edu/visitusundergraduate/individual-family-tours.html',
+        SchoolId : 160904
+    },
     {
         school: 'Paul Quinn College',
         image: '69 Paul Quinn College.JPG',
