@@ -6,10 +6,10 @@ describe('School Model', () => {
 		await sequelize.sync({force: true})
 	});
 
-	// test('can find a School', async() => {
-	// 	const testSchool = await School.findOne({name : 'Spelman College'})
-	// 	expect(testSchool.name).toBe('Spelman College')
-	// })
+	test('can find a School', async() => {
+		const testSchool = await School.findOne({name : 'Spelman College'})
+		expect(testSchool.name).toBe('Spelman College')
+	})
 
 		test('School has a website', async () => {
 			const websiteStr = "https://www.spelman.edu/";
