@@ -102,7 +102,7 @@ Click on the link below for details of the API calls:
   
 
 # DevOp Developers
-- Irene Bowers
+- Irene Bowers  
 - Erica Newman
 - Crystal Johnson
 - Mohammad Kasem
