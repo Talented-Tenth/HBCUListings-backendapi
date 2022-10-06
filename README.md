@@ -8,7 +8,7 @@
 
 The Talented 10th HBCU API was developed to allow for reading an HTTP API that queries available datasets of Historically Black College and Universities. This API will allow authorization and authentication as well as the ability to create, GET, POST, and DELETE a favorites list of preferred HBCU college and unversities.
 
-This document explains:
+This document explains:  
 <ul>
 <li>How to create a "favorite listing" of schools by location, major, size, cost, population, etc.</li>
 <li>How to create query results using C.R.U.D endpoints</li>
